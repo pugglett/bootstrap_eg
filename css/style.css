@@ -1,0 +1,47 @@
+.container {
+	margin-top: 10px;
+}
+
+.middle {
+	height: 400px;
+    display: flex;
+    /* flex-direction: column;*/
+    align-items: center; 
+    /* justify-content: center;*/
+}
+
+.embed-responsive-16by9 {
+	padding-bottom: 5%;
+}
+
+.filler-blue {
+  background-color: #708593;
+}
+
+.filler-green {
+	background-color: #68E598;
+}
+
+.filler-pink {
+	background-color: #FFEDDF;
+}
+
+.filler-orange {
+	background-color: #FFC181;
+}
+
+.filler-grey {
+	background-color: #3C474B;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row-space {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
