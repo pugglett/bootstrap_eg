@@ -4,11 +4,14 @@
 	<title>testing mail form</title>
 </head>
 <body>
-<form enctype="text/plain" method="get" action="mailto:leer5501@gmail.com">
+<form enctype="text/plain" method="POST" action="mailto:leer5501@gmail.com">
 Your First Name: <input type="text" name="first_name"><br>
 Your Last Name: <input type="text" name="last_name"><br>
 Comments: <textarea rows="5" cols="30" name="comments"></textarea>
 <input type="submit" value="Send">
 </form>
+
+<form method="post" action="contact.php">  Email: <input name="email" type="text"><br> Message:<br>  <textarea name="message" rows="15" cols="40"></textarea><br>  <input type="submit">  </form>
+
 </body>
 </html>
